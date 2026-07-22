@@ -482,7 +482,17 @@
         <div class="lib-reader-spinner"></div>
         <div class="lib-reader-loading-text">Открываем книгу...</div>
       </div>
-      <iframe id="libReaderFrame" style="display:none;"></iframe>
+      <div class="lib-reader-error" id="libReaderError" style="display:none;">
+        <div class="lib-reader-error-icon">⚠</div>
+        <div class="lib-reader-error-text">Не удалось открыть книгу в браузере</div>
+        <a href="#" id="libReaderErrorDl" class="lib-reader-dl" download>Скачать файл</a>
+      </div>
+      <div class="lib-pdf-pages" id="libPdfPages"></div>
+    </div>
+    <div class="lib-reader-footer" id="libReaderFooter" style="display:none;">
+      <button class="lib-page-btn" id="libPagePrev">←</button>
+      <span class="lib-page-info" id="libPageInfo">1 / 1</span>
+      <button class="lib-page-btn" id="libPageNext">→</button>
     </div>
   </div>
 </div>
@@ -779,6 +789,7 @@
   </div>
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 <script src="js/preloader.js"></script>
 <script src="js/ui.js"></script>
 <script src="js/imams.js"></script>

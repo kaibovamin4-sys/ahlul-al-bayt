@@ -1874,12 +1874,76 @@
     flex: 1;
     overflow: hidden;
     position: relative;
+    background: var(--bg);
   }
 
-  .lib-reader-body iframe {
-    width: 100%; height: 100%;
-    border: none;
-    background: #525659;
+  .lib-pdf-pages {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px;
+  }
+
+  .lib-pdf-canvas {
+    display: block;
+    max-width: 100%;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+    background: #fff;
+  }
+
+  .lib-reader-error {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    gap: 16px;
+    background: var(--bg2);
+    padding: 40px;
+    text-align: center;
+  }
+
+  .lib-reader-error-icon { font-size: 28px; opacity: 0.4; }
+
+  .lib-reader-error-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    color: var(--text-dim);
+    font-style: italic;
+  }
+
+  .lib-reader-footer {
+    padding: 14px 24px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .lib-page-btn {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    width: 38px; height: 38px;
+    cursor: pointer;
+    font-size: 15px;
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.3s;
+  }
+
+  .lib-page-btn:hover:not(:disabled) { border-color: var(--gold); color: var(--gold); }
+  .lib-page-btn:disabled { opacity: 0.25; cursor: default; }
+
+  .lib-page-info {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    color: var(--text-dim);
+    min-width: 80px;
+    text-align: center;
+    letter-spacing: 0.05em;
   }
 
   .lib-reader-loading {
@@ -1961,6 +2025,186 @@
     .lecture-item { gap: 16px; padding: 20px; }
     .modal { padding: 32px 24px; }
     .modal-overlay { padding: 20px; }
+  }
+
+  /* ══════ MOBILE REFINEMENTS ══════ */
+  @media (max-width: 640px) {
+    /* Tighter vertical rhythm — sections were far too tall */
+    .section { padding: 56px 22px; }
+    #about { padding-top: 56px; }
+    #imams, #library, #lectures { padding: 56px 0; }
+    #imams .inner, #library .inner, #lectures .inner { padding: 0 22px; }
+    #marja, #dua, #calendar-prayer, #qa { padding: 56px 22px; }
+    #quran { padding: 56px 22px; }
+
+    /* Hero — reduce dead space */
+    #hero { min-height: auto; padding: 120px 22px 72px; }
+    .hero-title { font-size: clamp(46px, 15vw, 68px); }
+    .hero-subtitle { font-size: 15px; margin-bottom: 32px; }
+    .hero-arabic { margin-bottom: 32px; }
+    .hero-eyebrow { font-size: 9px; letter-spacing: 0.28em; margin-bottom: 20px; }
+    .hero-scroll { bottom: 24px; }
+    .scroll-line { height: 28px; }
+
+    /* Section headings */
+    .section-title { font-size: clamp(30px, 8.5vw, 40px); }
+    .section-desc { font-size: 13px; }
+    .divider { margin: 20px 0; }
+
+    /* About */
+    .about-grid { margin-top: 36px; gap: 36px; }
+    .about-text p { font-size: 14px; line-height: 1.8; }
+    .about-quote { margin: 28px 0; padding-left: 18px; }
+    .about-quote blockquote { font-size: 19px; }
+    .stat-item { padding: 26px 20px; }
+    .stat-number { font-size: 40px; }
+
+    /* Imams — one per row reads far better than cramped pairs */
+    .imams-grid { grid-template-columns: 1fr; }
+    .imam-card { padding: 26px 22px; }
+    .imam-num { font-size: 34px; margin-bottom: 14px; }
+    .imams-header { margin-bottom: 36px; gap: 24px; }
+
+    /* Quran */
+    .quran-ayah { font-size: clamp(24px, 7vw, 32px); margin: 32px 0 20px; line-height: 1.9; }
+    .quran-translation { font-size: 15px; }
+
+    /* Dua cards */
+    .dua-grid { gap: 14px; margin-top: 36px; }
+    .dua-card { padding: 24px 20px; }
+    .dua-arabic { font-size: 20px; }
+    .dua-name { font-size: 18px; }
+
+    /* Dua reading page */
+    #duaPage > div { padding: 24px 20px 80px !important; }
+    .dua-page-title { font-size: clamp(28px, 8vw, 34px); }
+    .dua-page-arabic-title { font-size: 24px; margin-bottom: 22px; }
+    .dua-page-desc { font-size: 13px; margin-bottom: 36px; padding-bottom: 28px; }
+    .dua-verse { padding: 16px 0; }
+    .dua-verse:hover { margin: 0; padding: 16px 0; background: none; }
+    .dua-verse-ar { font-size: 21px; line-height: 1.95; }
+    .dua-verse-trans { font-size: 13px; opacity: 0.85; }
+    .dua-verse-ru { font-size: 14px; }
+    .dua-section-divider { padding: 26px 0 18px; font-size: 8px; }
+
+    /* Marja */
+    .marja-grid { gap: 14px; margin-top: 36px; }
+    .marja-card { padding: 30px 22px; }
+    .marja-avatar { width: 62px; height: 62px; font-size: 22px; margin-bottom: 20px; }
+    .marja-name { font-size: 22px; }
+    .marja-bio { font-size: 12.5px; margin-bottom: 20px; }
+
+    /* Library */
+    .lib-stats { gap: 26px; margin: 32px 0 28px; }
+    .lib-stat-num { font-size: 30px; }
+    .lib-lang-tabs {
+      margin-bottom: 20px;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+    .lib-lang-tabs::-webkit-scrollbar { display: none; }
+    .lib-lang-tab { padding: 11px 15px; font-size: 10px; }
+    .lib-controls { gap: 12px; margin-bottom: 20px; }
+    .lib-cat-select { width: 100%; }
+    .lib-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; }
+    .lib-cover { padding: 16px 12px; }
+    .lib-cover-title { font-size: 13px; -webkit-line-clamp: 4; }
+    .lib-cover-ornament { font-size: 18px; margin-bottom: 10px; }
+    .lib-cover-lang-badge { font-size: 7px; padding: 2px 5px; top: 8px; right: 8px; }
+    .lib-book-meta { font-size: 9px; padding-top: 8px; }
+    .lib-more-btn { width: 100%; padding: 14px 20px; }
+
+    /* Reader — full-bleed on phones */
+    .lib-reader-overlay { padding: 0; }
+    .lib-reader { height: 100vh; max-width: 100%; border: none; }
+    .lib-reader-header { padding: 14px 16px; }
+    .lib-reader-title { font-size: 14px; }
+    .lib-reader-dl { padding: 6px 10px; font-size: 9px; }
+    .lib-pdf-pages { padding: 8px; }
+    .lib-reader-footer { padding: 12px 16px; gap: 18px; }
+    .lib-page-btn { width: 42px; height: 42px; }
+
+    /* Lectures */
+    .lectures-list { margin-top: 36px; }
+    .lecture-item { flex-wrap: wrap; gap: 12px; padding: 20px; }
+    .lecture-num { font-size: 26px; min-width: 40px; }
+    .lecture-info { flex: 1 1 auto; min-width: 60%; }
+    .lecture-title { font-size: 17px; }
+    .lecture-meta { flex-wrap: wrap; gap: 6px; }
+    .lecture-duration { font-size: 15px; }
+    .lecture-play { width: 38px; height: 38px; }
+
+    /* Prayer + Calendar */
+    .cp-grid { gap: 20px; margin-top: 36px; }
+    .cp-panel { padding: 0; }
+    .cp-panel-title { font-size: 22px; margin-bottom: 22px; padding: 26px 22px 0; }
+    #calendar-prayer .cp-panel:last-child { padding: 26px 22px; }
+    #calendar-prayer .cp-panel:last-child .cp-panel-title { padding: 0; }
+
+    .cal-grid { gap: 1px; }
+    .cal-cell { min-height: 42px; padding: 4px; }
+    .cal-cell-num { font-size: 12px; width: 19px; height: 19px; }
+    .cal-weekday { font-size: 8px; padding: 7px 1px; letter-spacing: 0.05em; }
+    .cal-dot { width: 3px; height: 3px; }
+    .cal-month-label { font-size: 19px; }
+    .cal-nav { margin-bottom: 18px; }
+    .cal-events-heading { font-size: 8px; }
+    .cal-ev-name { font-size: 12.5px; }
+    .cal-legend { gap: 12px; font-size: 8px; }
+    .cal-legend-item { font-size: 8px; }
+
+    /* Q&A */
+    .qa-list { margin-top: 36px; }
+    .qa-question { padding: 20px 0; gap: 14px; }
+    .qa-q-text { font-size: 16px; }
+    .qa-answer p { font-size: 13px; padding-bottom: 20px; }
+
+    /* Footer */
+    footer { padding: 56px 22px 28px; }
+    .footer-inner { gap: 32px; margin-bottom: 36px; }
+    .footer-bottom { flex-direction: column; gap: 14px; text-align: center; }
+
+    /* Modals */
+    .modal { padding: 30px 22px; max-height: 86vh; }
+    .modal-overlay { padding: 16px; }
+    .modal-title { font-size: 26px; }
+    .modal-arabic { font-size: 18px; margin-bottom: 20px; }
+    .modal-body { font-size: 13.5px; }
+
+    /* Nav */
+    nav { height: 58px; padding: 0 22px; }
+    .nav-logo { font-size: 16px; }
+    .nav-logo span { font-size: 10px; letter-spacing: 0.16em; }
+    .mobile-nav ul a { font-size: 26px; }
+    .mobile-nav ul li { margin: 15px 0; }
+  }
+
+  /* Very small phones */
+  @media (max-width: 380px) {
+    .lib-grid { grid-template-columns: 1fr; }
+    .lib-stats { gap: 20px; }
+    .lib-stat-num { font-size: 26px; }
+    .about-stats { grid-template-columns: 1fr; }
+    .cal-cell { min-height: 38px; }
+  }
+
+  /* ══════ DESKTOP REFINEMENTS ══════ */
+  @media (min-width: 1400px) {
+    .section, #marja, #dua, #calendar-prayer, #qa,
+    #imams .inner, #library .inner, #lectures .inner,
+    .footer-inner, .footer-bottom { max-width: 1280px; }
+    .quran-inner { max-width: 760px; }
+  }
+
+  @media (min-width: 1024px) {
+    /* Slightly tighter sections so the page reads as a continuous archive */
+    .section { padding: 100px 40px; }
+    #imams, #library, #lectures { padding: 100px 0; }
+    #marja, #dua, #calendar-prayer, #qa, #quran { padding: 100px 40px; }
+
+    /* Cap over-wide reading measures */
+    .about-text p, .dua-page-desc { max-width: 62ch; }
+    .section-desc { max-width: 54ch; }
   }
 
   @media (prefers-reduced-motion: reduce) {
