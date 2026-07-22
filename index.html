@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ahlul al-Bayt — Цифровой Музей Знаний</title>
+<meta name="description" content="Цифровой музей знаний о шиитском исламе: 12 Имамов, дуа и зияраты, Коран и тафсиры, исламский календарь, время намаза по джафаритскому мазхабу.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Ahlul al-Bayt — Цифровой Музей Знаний">
+<meta property="og:description" content="Премиальный цифровой архив исламского наследия Ахль аль-Байт">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/avatar.png">
+
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/avatar.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<!-- PRELOADER -->
+<div id="preloader">
+  <canvas id="pl-bg"></canvas>
+  <div class="pl-content">
+
+    <div class="pl-ring">
+      <svg viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="70" cy="70" r="65" class="ring-bg"/>
+        <circle cx="70" cy="70" r="65" class="ring-draw"/>
+        <circle cx="70" cy="70" r="45" class="ring-i-bg"/>
+        <circle cx="70" cy="70" r="45" class="ring-i-dr"/>
+        <g opacity="0.22">
+          <g transform="translate(70,70)">
+            <g transform="rotate(0)">  <line x1="58" y1="0" x2="65" y2="0" stroke="#c9a84c" stroke-width="0.8"/></g>
+            <g transform="rotate(30)"> <line x1="58" y1="0" x2="65" y2="0" stroke="#c9a84c" stroke-width="0.8"/></g>
+            <g transform="rotate(60)"> <line x1="58" y1="0" x2="65" y2="0" stroke="#c9a84c" stroke-width="0.8"/></g>
+            <g transform="rotate(90)"> <line x1="58" y1="0" x2="65" y2="0" stroke="#c9a84c" stroke-width="0.8"/></g>
+            <g transform="rotate(120)"><line x1="58" y1="0" x2="65" y2="0" stroke="#c9a84c" stroke-width="0.8"/></g>
+            <g transform="rotate(150)"><line x1="58" y1="0" x2="65" y2="0" stroke="#c9a84c" stroke-width="0.8"/></g>
+            <g transform="rotate(180)"><line x1="58" y1="0" x2="65" y2="0" stroke="#c9a84c" stroke-width="0.8"/></g>
+            <g transform="rotate(210)"><line x1="58" y1="0" x2="65" y2="0" stroke="#c9a84c" stroke-width="0.8"/></g>
+            <g transform="rotate(240)"><line x1="58" y1="0" x2="65" y2="0" stroke="#c9a84c" stroke-width="0.8"/></g>
+            <g transform="rotate(270)"><line x1="58" y1="0" x2="65" y2="0" stroke="#c9a84c" stroke-width="0.8"/></g>
+            <g transform="rotate(300)"><line x1="58" y1="0" x2="65" y2="0" stroke="#c9a84c" stroke-width="0.8"/></g>
+            <g transform="rotate(330)"><line x1="58" y1="0" x2="65" y2="0" stroke="#c9a84c" stroke-width="0.8"/></g>
+          </g>
+        </g>
+        <g class="moon-g" id="pl-moon" transform="translate(70,70)">
+          <path
+            d="M 0,-28 A 28,28 0 1 1 -19.8,19.8 A 20,20 0 0 0 0,-28 Z"
+            fill="rgba(201,168,76,0.07)"/>
+          <path class="moon-path"
+            d="M 0,-28 A 28,28 0 1 1 -19.8,19.8 A 20,20 0 0 0 0,-28 Z"
+            fill="none" stroke="#c9a84c" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round"/>
+          <circle r="2.5" fill="#c9a84c" opacity="0.8"
+            style="opacity:0;animation:plFadeIn .4s ease 2.8s forwards"/>
+          <g transform="translate(18,-22)"
+            style="opacity:0;animation:plFadeIn .5s ease 2.9s forwards">
+            <path d="M0,-6 L1.4,-2 L5.7,-2 L2.3,0.8 L3.5,5.1 L0,2.6 L-3.5,5.1 L-2.3,0.8 L-5.7,-2 L-1.4,-2 Z"
+              fill="none" stroke="#c9a84c" stroke-width="0.8"
+              stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+          </g>
+        </g>
+      </svg>
+    </div>
+
+    <div class="pl-arabic">بِسْمِ اللَّهِ</div>
+    <div class="pl-label-name">Ahlul al-Bayt</div>
+    <div class="pl-bar-wrap"><div class="pl-bar"></div></div>
+    <div class="pl-sub-label">Цифровой Музей Знаний</div>
+    <div class="pl-dots">
+      <div class="pl-dot"></div>
+      <div class="pl-dot"></div>
+      <div class="pl-dot"></div>
+    </div>
+  </div>
+</div>
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+  <ul>
+    <li><a onclick="scrollToSection('about'); closeMobileNav()">О шиизме</a></li>
+    <li><a onclick="scrollToSection('imams'); closeMobileNav()">12 Имамов</a></li>
+    <li><a onclick="scrollToSection('quran'); closeMobileNav()">Коран</a></li>
+    <li><a onclick="scrollToSection('dua'); closeMobileNav()">Дуа</a></li>
+    <li><a onclick="scrollToSection('marja'); closeMobileNav()">Марджа</a></li>
+    <li><a onclick="scrollToSection('library'); closeMobileNav()">Библиотека</a></li>
+    <li><a onclick="scrollToSection('lectures'); closeMobileNav()">Лекции</a></li>
+    <li><a onclick="scrollToSection('qa'); closeMobileNav()">Вопросы</a></li>
+  </ul>
+</div>
+
+<!-- NAVIGATION -->
+<nav id="navbar">
+  <a class="nav-logo" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+    Ahlul al-Bayt
+    <span>Цифровой Музей Знаний</span>
+  </a>
+  <ul class="nav-links">
+    <li><a onclick="scrollToSection('about')">О шиизме</a></li>
+    <li><a onclick="scrollToSection('imams')">12 Имамов</a></li>
+    <li><a onclick="scrollToSection('quran')">Коран</a></li>
+    <li><a onclick="scrollToSection('dua')">Дуа</a></li>
+    <li><a onclick="scrollToSection('marja')">Марджа</a></li>
+    <li><a onclick="scrollToSection('library')">Библиотека</a></li>
+    <li><a onclick="scrollToSection('lectures')">Лекции</a></li>
+    <li><a onclick="scrollToSection('qa')">Q&A</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="theme-toggle" id="themeToggle" title="Сменить тему">☽</button>
+    <button class="nav-menu-btn" id="menuBtn" onclick="toggleMobileNav()">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-pattern"></div>
+  <div class="hero-eyebrow">Цифровой Архив · Исламское Наследие</div>
+  <h1 class="hero-title">Ahlul<br><em>al-Bayt</em></h1>
+  <p class="hero-subtitle">Сокровищница знаний о семье Пророка — хранимая, собранная, открытая для всех</p>
+  <div class="hero-arabic">أَهْلُ الْبَيْتِ</div>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    Листать
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section">
+    <div class="reveal">
+      <div class="section-label">Введение · 01</div>
+      <h2 class="section-title">О Шиитском<br>Исламе</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>
+          <strong>Шиитский ислам</strong> — вторая по численности ветвь ислама, объединяющая более 200 миллионов верующих по всему миру. Слово «шиа» происходит от арабского «شيعة علي» — «последователи Али».
+        </p>
+        <div class="about-quote">
+          <blockquote>«Я оставляю вам две весомые вещи: Книгу Аллаха и мою семью — Ахль аль-Байт»</blockquote>
+          <cite>— Пророк Мухаммад ﷺ · Хадис аль-Такалайн</cite>
+        </div>
+        <p>
+          Шиизм утверждает, что духовное и политическое руководство мусульманской общиной после Пророка принадлежит его семье и потомкам — <strong>Ахль аль-Байт</strong>. Эта традиция богата богословием, философией, этикой и духовной практикой.
+        </p>
+        <p>
+          Центральное место занимает доктрина <strong>имамата</strong> — богоизбранного руководства линии из двенадцати имамов, начиная с Имама Али ибн Аби Талиба.
+        </p>
+      </div>
+      <div class="about-stats reveal">
+        <div class="stat-item">
+          <div class="stat-number">200M+</div>
+          <div class="stat-label">Мусульман-шиитов</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">12</div>
+          <div class="stat-label">Непогрешимых Имамов</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">1400+</div>
+          <div class="stat-label">Лет традиции</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">40+</div>
+          <div class="stat-label">Стран присутствия</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 12 IMAMS -->
+<section id="imams">
+  <div class="inner">
+    <div class="imams-header reveal">
+      <div>
+        <div class="section-label">Имамат · 02</div>
+        <h2 class="section-title">Двенадцать<br>Имамов</h2>
+        <div class="divider"></div>
+      </div>
+      <p class="section-desc">Двенадцать непогрешимых имамов — духовные и политические наследники Пророка Мухаммада ﷺ, хранители исламского знания и справедливости.</p>
+    </div>
+    <div class="imams-grid">
+
+      <div class="imam-card reveal" onclick="openImamModal(1)">
+        <div class="imam-num">01</div>
+        <span class="imam-arabic">عَلِيّ بْنُ أَبِي طَالِب</span>
+        <div class="imam-name">Имам Али ибн Аби Талиб</div>
+        <div class="imam-title">Амир аль-Муминин · Повелитель верующих</div>
+        <div class="imam-years">600 — 661 н. э.</div>
+      </div>
+
+      <div class="imam-card reveal" onclick="openImamModal(2)">
+        <div class="imam-num">02</div>
+        <span class="imam-arabic">الْحَسَن بْنُ عَلِيّ</span>
+        <div class="imam-name">Имам Хасан аль-Муджтаба</div>
+        <div class="imam-title">аль-Муджтаба · Избранный</div>
+        <div class="imam-years">625 — 670 н. э.</div>
+      </div>
+
+      <div class="imam-card reveal" onclick="openImamModal(3)">
+        <div class="imam-num">03</div>
+        <span class="imam-arabic">الْحُسَيْن بْنُ عَلِيّ</span>
+        <div class="imam-name">Имам Хусейн ибн Али</div>
+        <div class="imam-title">Сайид аш-Шухада · Господин мучеников</div>
+        <div class="imam-years">626 — 680 н. э.</div>
+      </div>
+
+      <div class="imam-card reveal" onclick="openImamModal(4)">
+        <div class="imam-num">04</div>
+        <span class="imam-arabic">عَلِيّ بْنُ الْحُسَيْن</span>
+        <div class="imam-name">Имам Али ибн Хусейн</div>
+        <div class="imam-title">Зайн аль-Абидин · Украшение поклоняющихся</div>
+        <div class="imam-years">659 — 713 н. э.</div>
+      </div>
+
+      <div class="imam-card reveal" onclick="openImamModal(5)">
+        <div class="imam-num">05</div>
+        <span class="imam-arabic">مُحَمَّد بْنُ عَلِيّ</span>
+        <div class="imam-name">Имам Мухаммад аль-Бакир</div>
+        <div class="imam-title">аль-Бакир · Открывающий знание</div>
+        <div class="imam-years">677 — 733 н. э.</div>
+      </div>
+
+      <div class="imam-card reveal" onclick="openImamModal(6)">
+        <div class="imam-num">06</div>
+        <span class="imam-arabic">جَعْفَر بْنُ مُحَمَّد</span>
+        <div class="imam-name">Имам Джафар ас-Садик</div>
+        <div class="imam-title">ас-Садик · Правдивый</div>
+        <div class="imam-years">702 — 765 н. э.</div>
+      </div>
+
+      <div class="imam-card reveal" onclick="openImamModal(7)">
+        <div class="imam-num">07</div>
+        <span class="imam-arabic">مُوسَى بْنُ جَعْفَر</span>
+        <div class="imam-name">Имам Муса аль-Казим</div>
+        <div class="imam-title">аль-Казим · Сдерживающий гнев</div>
+        <div class="imam-years">745 — 799 н. э.</div>
+      </div>
+
+      <div class="imam-card reveal" onclick="openImamModal(8)">
+        <div class="imam-num">08</div>
+        <span class="imam-arabic">عَلِيّ بْنُ مُوسَى</span>
+        <div class="imam-name">Имам Али ар-Рида</div>
+        <div class="imam-title">ар-Рида · Довольный</div>
+        <div class="imam-years">765 — 818 н. э.</div>
+      </div>
+
+      <div class="imam-card reveal" onclick="openImamModal(9)">
+        <div class="imam-num">09</div>
+        <span class="imam-arabic">مُحَمَّد بْنُ عَلِيّ</span>
+        <div class="imam-name">Имам Мухаммад аль-Джавад</div>
+        <div class="imam-title">аль-Джавад · Щедрый</div>
+        <div class="imam-years">811 — 835 н. э.</div>
+      </div>
+
+      <div class="imam-card reveal" onclick="openImamModal(10)">
+        <div class="imam-num">10</div>
+        <span class="imam-arabic">عَلِيّ بْنُ مُحَمَّد</span>
+        <div class="imam-name">Имам Али аль-Хади</div>
+        <div class="imam-title">аль-Хади · Ведущий верным путём</div>
+        <div class="imam-years">827 — 868 н. э.</div>
+      </div>
+
+      <div class="imam-card reveal" onclick="openImamModal(11)">
+        <div class="imam-num">11</div>
+        <span class="imam-arabic">الْحَسَن بْنُ عَلِيّ</span>
+        <div class="imam-name">Имам Хасан аль-Аскари</div>
+        <div class="imam-title">аль-Аскари · Из аль-Аскара</div>
+        <div class="imam-years">846 — 874 н. э.</div>
+      </div>
+
+      <div class="imam-card reveal" onclick="openImamModal(12)">
+        <div class="imam-num">12</div>
+        <span class="imam-arabic">مُحَمَّد بْنُ الْحَسَن</span>
+        <div class="imam-name">Имам Мухаммад аль-Махди</div>
+        <div class="imam-title">аль-Махди · Ведомый · Ожидаемый</div>
+        <div class="imam-years">868 н. э. — Большое Сокрытие</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- QURAN -->
+<section id="quran">
+  <div class="quran-inner">
+    <div class="reveal">
+      <div class="section-label" style="text-align:center">Коран и Тафсиры · 03</div>
+      <h2 class="section-title" style="text-align:center">Слово Аллаха</h2>
+    </div>
+    <div class="reveal">
+      <div class="quran-ayah">إِنَّمَا يُرِيدُ اللَّهُ لِيُذْهِبَ عَنْكُمُ الرِّجْسَ أَهْلَ الْبَيْتِ وَيُطَهِّرَكُمْ تَطْهِيرًا</div>
+      <div class="quran-translation">«Воистину, Аллах хочет удалить от вас скверну, о семья Пророка, и очистить вас полным очищением»</div>
+      <div class="quran-ref">Коран · Сура аль-Ахзаб 33:33 · Аят ат-Тахир</div>
+    </div>
+    <div style="margin-top: 60px; display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;" class="reveal">
+      <div style="border: 1px solid var(--border); padding: 20px 32px; cursor: pointer; transition: all 0.3s; min-width: 180px; text-align:center;" onmouseover="this.style.borderColor='var(--border-gold)'" onmouseout="this.style.borderColor='var(--border)'">
+        <div style="font-size:9px;letter-spacing:0.3em;text-transform:uppercase;color:var(--gold);margin-bottom:10px;">Тафсир</div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:18px;color:var(--text);">аль-Мизан</div>
+        <div style="font-size:11px;color:var(--text-muted);margin-top:4px;">Табатабаи</div>
+      </div>
+      <div style="border: 1px solid var(--border); padding: 20px 32px; cursor: pointer; transition: all 0.3s; min-width: 180px; text-align:center;" onmouseover="this.style.borderColor='var(--border-gold)'" onmouseout="this.style.borderColor='var(--border)'">
+        <div style="font-size:9px;letter-spacing:0.3em;text-transform:uppercase;color:var(--gold);margin-bottom:10px;">Тафсир</div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:18px;color:var(--text);">Маджма аль-Байан</div>
+        <div style="font-size:11px;color:var(--text-muted);margin-top:4px;">Табарси</div>
+      </div>
+      <div style="border: 1px solid var(--border); padding: 20px 32px; cursor: pointer; transition: all 0.3s; min-width: 180px; text-align:center;" onmouseover="this.style.borderColor='var(--border-gold)'" onmouseout="this.style.borderColor='var(--border)'">
+        <div style="font-size:9px;letter-spacing:0.3em;text-transform:uppercase;color:var(--gold);margin-bottom:10px;">Тафсир</div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:18px;color:var(--text);">Тафсир Нур</div>
+        <div style="font-size:11px;color:var(--text-muted);margin-top:4px;">Караати</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DUA -->
+<section id="dua">
+  <div class="section-label reveal">Дуа и Зияраты · 04</div>
+  <h2 class="section-title reveal" style="margin-bottom:0">Молитвы и<br>Обращения</h2>
+  <div class="divider reveal"></div>
+  <div class="dua-grid">
+
+    <div class="dua-card reveal" onclick="openDua('tawassul')">
+      <span class="dua-arabic">دُعَاء التَّوَسُّل</span>
+      <div class="dua-name">Дуа Тавассуль</div>
+      <div class="dua-desc">Молитва-обращение через Пророка и 14 Непогрешимых к Аллаху. Читается при важных нуждах и прошениях.</div>
+      <div class="dua-read-link">Читать →</div>
+    </div>
+
+    <div class="dua-card reveal" onclick="openDua('kumayl')">
+      <span class="dua-arabic">دُعَاء كُمَيْل</span>
+      <div class="dua-name">Дуа Кумайль</div>
+      <div class="dua-desc">Молитва, которую Имам Али передал своему ближайшему сподвижнику Кумайлу ибн Зияду. Читается каждую ночь в четверг.</div>
+      <div class="dua-read-link">Читать →</div>
+    </div>
+
+    <div class="dua-card reveal" onclick="openDua('abuhamza')">
+      <span class="dua-arabic">دُعَاء أَبِي حَمْزَة الثُّمَالِي</span>
+      <div class="dua-name">Дуа Абу Хамза ат-Тумали</div>
+      <div class="dua-desc">Великая молитва Имама Зайн аль-Абидина, читаемая в благословенные ночи Рамадана.</div>
+      <div class="dua-read-link">Скоро →</div>
+    </div>
+
+    <div class="dua-card reveal" onclick="openDua('ashura')">
+      <span class="dua-arabic">زِيَارَة عَاشُورَاء</span>
+      <div class="dua-name">Зиярат Ашура</div>
+      <div class="dua-desc">Священное обращение к Имаму Хусейну в день Ашура — один из важнейших зияратов шиитской традиции.</div>
+      <div class="dua-read-link">Скоро →</div>
+    </div>
+
+    <div class="dua-card reveal" onclick="openDua('nudba')">
+      <span class="dua-arabic">دُعَاء النُّدْبَة</span>
+      <div class="dua-name">Дуа ан-Нудба</div>
+      <div class="dua-desc">«Молитва скорби» — обращение к Имаму аль-Махди, читаемое по пятницам и в великие праздники.</div>
+      <div class="dua-read-link">Скоро →</div>
+    </div>
+
+    <div class="dua-card reveal" onclick="openDua('sahifa')">
+      <span class="dua-arabic">الصَّحِيفَة السَّجَّادِيَّة</span>
+      <div class="dua-name">Ас-Сахифа ас-Саджадия</div>
+      <div class="dua-desc">«Псалтырь Ахль аль-Байт» — собрание 54 молитв Имама Али ибн Хусейна, шедевр исламской духовной литературы.</div>
+      <div class="dua-read-link">Скоро →</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- DUA PAGE OVERLAY -->
+<div id="duaPage" style="display:none;position:fixed;inset:0;z-index:300;background:var(--bg);overflow-y:auto;opacity:0;transition:opacity 0.4s ease;">
+  <div style="max-width:860px;margin:0 auto;padding:80px 40px 120px;">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:60px;position:sticky;top:0;background:var(--bg);padding:20px 0;z-index:1;border-bottom:1px solid var(--border);">
+      <button id="duaBackBtn" onclick="closeDua()" style="background:none;border:1px solid var(--border);color:var(--text-dim);padding:10px 24px;cursor:pointer;font-size:10px;letter-spacing:0.25em;text-transform:uppercase;font-family:Inter,sans-serif;transition:all 0.3s;">← Назад</button>
+      <div id="duaPageLabel" style="font-size:9px;letter-spacing:0.4em;text-transform:uppercase;color:var(--gold);"></div>
+    </div>
+    <div id="duaPageContent"></div>
+  </div>
+</div>
+
+<!-- MARJA -->
+<section id="marja">
+  <div class="section-label reveal">Марджа ат-Таклид · 05</div>
+  <h2 class="section-title reveal">Великие<br>Аятоллы</h2>
+  <div class="divider reveal"></div>
+  <p class="section-desc reveal">Биографии высших религиозных авторитетов шиитского мира — хранителей знания и исламского права.</p>
+
+  <div class="marja-grid">
+
+    <div class="marja-card reveal" onclick="openMarjaModal('sistani')">
+      <div class="marja-avatar">س</div>
+      <div class="marja-eyebrow">Великий Аятолла · Наджаф, Ирак</div>
+      <div class="marja-name">Аятолла Али ас-Систани</div>
+      <span class="marja-arabic-name">آية الله علي السيستاني</span>
+      <p class="marja-bio">Высший марджа шиитского мира, базирующийся в Наджафе. Родился в 1930 году в Мешхеде. Его фетвы и руководство сыграли ключевую роль в стабилизации Ирака и защите мирных граждан.</p>
+      <div class="marja-tags">
+        <span class="tag">Фикх</span>
+        <span class="tag">Усуль</span>
+        <span class="tag">Наджафская школа</span>
+      </div>
+    </div>
+
+    <div class="marja-card reveal" onclick="openMarjaModal('khamenei')">
+      <div class="marja-avatar">خ</div>
+      <div class="marja-eyebrow">Великий Аятолла · Тегеран, Иран</div>
+      <div class="marja-name">Аятолла Али Хаменеи</div>
+      <span class="marja-arabic-name">آية الله علي خامنئي</span>
+      <p class="marja-bio">Верховный лидер Исламской Республики Иран с 1989 года. Родился в 1939 году в Мешхеде. Богослов, поэт и философ — известен своим акцентом на исламской цивилизации и сопротивлении.</p>
+      <div class="marja-tags">
+        <span class="tag">Вилайят аль-Факих</span>
+        <span class="tag">Политический ислам</span>
+        <span class="tag">Тегеранская школа</span>
+      </div>
+    </div>
+
+    <div class="marja-card reveal" onclick="openMarjaModal('makarim')">
+      <div class="marja-avatar">م</div>
+      <div class="marja-eyebrow">Великий Аятолла · Кум, Иран</div>
+      <div class="marja-name">Аятолла Насер Макарем Ширази</div>
+      <span class="marja-arabic-name">آية الله ناصر مكارم الشيرازي</span>
+      <p class="marja-bio">Один из ведущих марджа в Куме. Родился в 1927 году. Автор более 100 книг по исламским наукам, в том числе знаменитого тафсира «Аль-Амсаль» и обширных трудов по фикху.</p>
+      <div class="marja-tags">
+        <span class="tag">Тафсир</span>
+        <span class="tag">Ахлак</span>
+        <span class="tag">Кумская школа</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- LIBRARY -->
+<section id="library">
+  <div class="inner">
+    <div class="reveal">
+      <div class="section-label">Библиотека Знаний · 06</div>
+      <h2 class="section-title">Архив<br>Текстов</h2>
+      <div class="divider"></div>
+      <p class="section-desc">Собрание книг об исламе и Ахль аль-Байт — читайте прямо на сайте или скачивайте для себя.</p>
+    </div>
+
+    <div class="lib-stats reveal" id="libStats"></div>
+
+    <div class="lib-lang-tabs reveal" id="libLangTabs"></div>
+
+    <div class="lib-controls reveal">
+      <div class="lib-search">
+        <span class="lib-search-icon">⌕</span>
+        <input type="text" id="libSearch" placeholder="Поиск по названию..." autocomplete="off">
+      </div>
+      <select class="lib-cat-select" id="libCatSelect"></select>
+    </div>
+
+    <div class="lib-grid" id="libGrid"></div>
+
+    <div class="lib-count" id="libCount"></div>
+  </div>
+</section>
+
+<!-- BOOK READER MODAL -->
+<div class="lib-reader-overlay" id="libReaderOverlay" onclick="if(event.target===this)closeBookReader()">
+  <div class="lib-reader">
+    <div class="lib-reader-header">
+      <div class="lib-reader-title" id="libReaderTitle"></div>
+      <div class="lib-reader-actions">
+        <a href="#" id="libReaderDownload" class="lib-reader-dl" download>Скачать</a>
+        <button class="lib-reader-close" onclick="closeBookReader()">×</button>
+      </div>
+    </div>
+    <div class="lib-reader-body">
+      <div class="lib-reader-loading" id="libReaderLoading">
+        <div class="lib-reader-spinner"></div>
+        <div class="lib-reader-loading-text">Открываем книгу...</div>
+      </div>
+      <iframe id="libReaderFrame" style="display:none;"></iframe>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- LECTURES -->
+<section id="lectures">
+  <div class="inner">
+    <div class="reveal">
+      <div class="section-label">Лекции и Видео · 07</div>
+      <h2 class="section-title">Аудио-<br>архив</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="lectures-list">
+
+      <div class="lecture-item reveal">
+        <div class="lecture-num">01</div>
+        <div class="lecture-info">
+          <div class="lecture-title">Имамат: доктрина и доказательства</div>
+          <div class="lecture-meta">
+            <span>Акида</span>
+            <span>·</span>
+            <span>Шейх Мухаммад Бакр аль-Каими</span>
+          </div>
+        </div>
+        <div class="lecture-duration">1:24:08</div>
+        <div class="lecture-play">▶</div>
+      </div>
+
+      <div class="lecture-item reveal">
+        <div class="lecture-num">02</div>
+        <div class="lecture-info">
+          <div class="lecture-title">Нахдж аль-Балага: Послания Имама Али</div>
+          <div class="lecture-meta">
+            <span>Этика</span>
+            <span>·</span>
+            <span>Аятолла Джавади Амоли</span>
+          </div>
+        </div>
+        <div class="lecture-duration">2:10:33</div>
+        <div class="lecture-play">▶</div>
+      </div>
+
+      <div class="lecture-item reveal">
+        <div class="lecture-num">03</div>
+        <div class="lecture-info">
+          <div class="lecture-title">Кербела: Духовное послание Имама Хусейна</div>
+          <div class="lecture-meta">
+            <span>История</span>
+            <span>·</span>
+            <span>Шейх Хасан Насраллах</span>
+          </div>
+        </div>
+        <div class="lecture-duration">58:14</div>
+        <div class="lecture-play">▶</div>
+      </div>
+
+      <div class="lecture-item reveal">
+        <div class="lecture-num">04</div>
+        <div class="lecture-info">
+          <div class="lecture-title">Ас-Сахифа ас-Саджадия: Молитвы четвёртого Имама</div>
+          <div class="lecture-meta">
+            <span>Духовность</span>
+            <span>·</span>
+            <span>Аятолла Мусауи Лари</span>
+          </div>
+        </div>
+        <div class="lecture-duration">1:44:22</div>
+        <div class="lecture-play">▶</div>
+      </div>
+
+      <div class="lecture-item reveal">
+        <div class="lecture-num">05</div>
+        <div class="lecture-info">
+          <div class="lecture-title">Философия ожидания Имама аль-Махди</div>
+          <div class="lecture-meta">
+            <span>Эсхатология</span>
+            <span>·</span>
+            <span>Аятолла Мисбах Язди</span>
+          </div>
+        </div>
+        <div class="lecture-duration">1:05:47</div>
+        <div class="lecture-play">▶</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CALENDAR & PRAYER -->
+<section id="calendar-prayer">
+  <div class="section-label reveal">Время и Ориентиры · 08</div>
+  <h2 class="section-title reveal">Календарь<br>и Намаз</h2>
+  <div class="divider reveal"></div>
+  <div class="cp-grid">
+
+    <!-- PRAYER TIMES — full widget -->
+    <div class="cp-panel reveal" style="padding:0;overflow:hidden;">
+      <div style="padding:32px 32px 20px;border-bottom:1px solid var(--border);position:relative;">
+        <div style="font-size:9px;letter-spacing:0.4em;text-transform:uppercase;color:var(--gold);margin-bottom:10px;">Время намаза</div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:300;color:var(--text);margin-bottom:4px;">أَوْقَاتُ الصَّلاة</div>
+        <div style="font-size:11px;color:var(--text-muted);">Расчёт по джафаритскому мазхабу</div>
+        <div style="position:absolute;top:32px;right:32px;font-size:8px;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold-dim);border:1px solid var(--border-gold);padding:4px 10px;">Джафари</div>
+      </div>
+
+      <!-- Location bar -->
+      <div style="padding:14px 32px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px;">
+        <span style="font-size:13px;opacity:0.5;">📍</span>
+        <input type="text" id="cityInput"
+          placeholder="Введите город..."
+          style="flex:1;background:none;border:none;outline:none;font-family:Inter,sans-serif;font-size:13px;color:var(--text);font-weight:300;"
+          onkeydown="if(event.key==='Enter')searchPrayerCity()"/>
+        <button onclick="searchPrayerCity()" style="background:none;border:1px solid var(--border);color:var(--text-dim);padding:6px 14px;cursor:pointer;font-size:9px;letter-spacing:0.2em;text-transform:uppercase;font-family:Inter,sans-serif;transition:all 0.3s;" onmouseover="this.style.borderColor='var(--gold)';this.style.color='var(--gold)'" onmouseout="this.style.borderColor='var(--border)';this.style.color='var(--text-dim)'">Найти</button>
+        <button onclick="getPrayerGeo()" title="Моё местоположение" style="background:none;border:1px solid var(--border);color:var(--text-muted);width:32px;height:32px;cursor:pointer;font-size:14px;display:flex;align-items:center;justify-content:center;transition:all 0.3s;flex-shrink:0;" onmouseover="this.style.borderColor='var(--gold)';this.style.color='var(--gold)'" onmouseout="this.style.borderColor='var(--border)';this.style.color='var(--text-muted)'">◎</button>
+      </div>
+
+      <!-- Date bar -->
+      <div id="prayerDateBar" style="display:none;padding:12px 32px;border-bottom:1px solid var(--border);display:none;align-items:center;justify-content:space-between;">
+        <div>
+          <div id="prayerDateGregorian" style="font-size:11px;color:var(--text-dim);font-weight:300;"></div>
+          <div id="prayerDateHijriRu" style="font-size:10px;color:var(--text-muted);"></div>
+        </div>
+        <div id="prayerDateHijri" style="font-family:'Scheherazade New',serif;font-size:16px;color:var(--gold);opacity:0.8;"></div>
+      </div>
+
+      <!-- Prayer content -->
+      <div id="prayerContent">
+        <div style="padding:40px 32px;text-align:center;">
+          <div style="font-size:28px;opacity:0.3;margin-bottom:14px;">🕌</div>
+          <div style="font-family:'Cormorant Garamond',serif;font-size:17px;color:var(--text-dim);font-style:italic;font-weight:300;margin-bottom:6px;">Выберите город</div>
+          <div style="font-size:11px;color:var(--text-muted);">или используйте геолокацию</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FULL CALENDAR -->
+    <div class="cp-panel reveal">
+      <div class="cp-panel-title"><span>📅</span> Исламский Календарь</div>
+      <div class="cal-wrap">
+        <div class="cal-nav">
+          <button class="cal-nav-btn" id="cal-prev">←</button>
+          <div class="cal-month-label" id="cal-month-label">
+            <span id="cal-month-name"></span>
+            <small id="cal-year-label"></small>
+          </div>
+          <button class="cal-nav-btn" id="cal-next">→</button>
+        </div>
+        <div class="cal-grid" id="cal-grid"></div>
+        <div class="cal-events-panel">
+          <div class="cal-events-heading" id="cal-events-heading">События месяца</div>
+          <div id="cal-events-list"></div>
+        </div>
+        <div class="cal-legend">
+          <div class="cal-legend-item"><div class="cal-legend-dot" style="background:#4a9d5a"></div>Рождение</div>
+          <div class="cal-legend-item"><div class="cal-legend-dot" style="background:#9d4a4a"></div>Мученичество</div>
+          <div class="cal-legend-item"><div class="cal-legend-dot" style="background:#c9a84c"></div>Праздник</div>
+          <div class="cal-legend-item"><div class="cal-legend-dot" style="background:#4a7a9d"></div>Другое</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Q&A -->
+<section id="qa">
+  <div class="section-label reveal">Вопросы и Ответы · 09</div>
+  <h2 class="section-title reveal">Часто задаваемые<br>Вопросы</h2>
+  <div class="divider reveal"></div>
+
+  <div class="qa-list">
+
+    <div class="qa-item reveal" onclick="toggleQA(this)">
+      <div class="qa-question">
+        <div class="qa-q-text">В чём разница между шиитским и суннитским исламом?</div>
+        <div class="qa-toggle">+</div>
+      </div>
+      <div class="qa-answer">
+        <p>Главное различие — в вопросе преемственности после Пророка Мухаммада ﷺ. Шиизм считает законными преемниками только Имамов из рода Пророка — Ахль аль-Байт. Это влечёт богословские, правовые и практические различия в вопросах фикха, калама и духовной практики.</p>
+      </div>
+    </div>
+
+    <div class="qa-item reveal" onclick="toggleQA(this)">
+      <div class="qa-question">
+        <div class="qa-q-text">Кто такой марджа ат-таклид?</div>
+        <div class="qa-toggle">+</div>
+      </div>
+      <div class="qa-answer">
+        <p>Марджа («источник подражания») — высококвалифицированный муджтахид, чьим религиозным постановлениям (фетвам) следуют верующие в период Сокрытия Имама аль-Махди. Выбор марджа — обязанность каждого совершеннолетнего шиита.</p>
+      </div>
+    </div>
+
+    <div class="qa-item reveal" onclick="toggleQA(this)">
+      <div class="qa-question">
+        <div class="qa-q-text">Что такое Ашура и почему она важна?</div>
+        <div class="qa-toggle">+</div>
+      </div>
+      <div class="qa-answer">
+        <p>Ашура — 10-й день месяца Мухаррам, день мученической гибели Имама Хусейна ибн Али и его сподвижников в битве при Кербеле (680 г. н. э.). Это центральное событие шиитского самосознания — символ справедливости, жертвенности и сопротивления тирании.</p>
+      </div>
+    </div>
+
+    <div class="qa-item reveal" onclick="toggleQA(this)">
+      <div class="qa-question">
+        <div class="qa-q-text">Что означает «Большое Сокрытие» Имама аль-Махди?</div>
+        <div class="qa-toggle">+</div>
+      </div>
+      <div class="qa-answer">
+        <p>В 941 году начался период Большого Сокрытия, когда 12-й Имам Мухаммад ибн аль-Хасан аль-Махди скрылся от взоров людей по воле Аллаха. Верующие ожидают его возвращения в конце времён, когда он установит справедливость на земле.</p>
+      </div>
+    </div>
+
+    <div class="qa-item reveal" onclick="toggleQA(this)">
+      <div class="qa-question">
+        <div class="qa-q-text">Что такое зиярат и как к нему готовиться?</div>
+        <div class="qa-toggle">+</div>
+      </div>
+      <div class="qa-answer">
+        <p>Зиярат — посещение святых мест и могил Пророка и Имамов с выражением почтения и духовной связи. Существуют особые молитвы-зияраты для каждого Имама. К зиярату готовятся омовением, читая особые дуа на протяжении пути.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a class="nav-logo">
+        Ahlul al-Bayt
+        <span>Цифровой Музей Знаний</span>
+      </a>
+      <p>Открытый архив исламского наследия — для всех, кто ищет истину и свет Ахль аль-Байт.</p>
+    </div>
+    <div class="footer-links-grid">
+      <div class="footer-col">
+        <div class="footer-col-title">Знание</div>
+        <ul>
+          <li><a>О шиизме</a></li>
+          <li><a>12 Имамов</a></li>
+          <li><a>Коран и Тафсиры</a></li>
+          <li><a>Хадисы</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Практика</div>
+        <ul>
+          <li><a>Дуа и Зияраты</a></li>
+          <li><a>Время намаза</a></li>
+          <li><a>Исламский календарь</a></li>
+          <li><a>Вопросы и ответы</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Архив</div>
+        <ul>
+          <li><a>Библиотека книг</a></li>
+          <li><a>Лекции и видео</a></li>
+          <li><a>Марджа ат-Таклид</a></li>
+          <li><a>Новости</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Ahlul al-Bayt — Цифровой Музей Знаний. Все права защищены.</p>
+    <div class="footer-arabic">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</div>
+  </div>
+</footer>
+
+<!-- IMAM MODAL -->
+<div class="modal-overlay" id="imamModal" onclick="if(event.target===this)closeImamModal()">
+  <div class="modal">
+    <button class="modal-close" onclick="closeImamModal()">×</button>
+    <div class="modal-eyebrow" id="imamModalLabel"></div>
+    <div class="modal-title" id="imamModalTitle"></div>
+    <span class="modal-arabic" id="imamModalArabic"></span>
+    <div class="modal-divider"></div>
+    <div class="modal-body" id="imamModalBody"></div>
+  </div>
+</div>
+
+<!-- MARJA MODAL -->
+<div class="modal-overlay" id="marjaModal" onclick="if(event.target===this)closeMarjaModal()">
+  <div class="modal">
+    <button class="modal-close" onclick="closeMarjaModal()">×</button>
+    <div class="modal-eyebrow" id="marjaModalLabel"></div>
+    <div class="modal-title" id="marjaModalTitle"></div>
+    <span class="modal-arabic" id="marjaModalArabic"></span>
+    <div class="modal-divider"></div>
+    <div class="modal-body" id="marjaModalBody"></div>
+  </div>
+</div>
+
+<script src="js/preloader.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/imams.js"></script>
+<script src="js/marja.js"></script>
+<script src="js/dua.js"></script>
+<script src="js/library.js"></script>
+<script src="js/prayer.js"></script>
+<script src="js/calendar.js"></script>
+<script src="js/esc.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,1342 @@
+[
+  {
+    "id": "ru-001",
+    "title": "14 рассказов, 14 Непорочных",
+    "lang": "ru",
+    "lang_name": "Русский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/ru__14-rasskazov-14-neporochnyh.pdf",
+    "size_mb": 1.7,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "ru-002",
+    "title": "Мафатих аль-джинан",
+    "lang": "ru",
+    "lang_name": "Русский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/ru__mafatih-al-dzhinan.pdf",
+    "size_mb": 6.22,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "ru-003",
+    "title": "НАМАЗ ДЛЯ ДЕТЕЙ",
+    "lang": "ru",
+    "lang_name": "Русский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/ru__namaz-dlya-detey.pdf",
+    "size_mb": 18.61,
+    "category": "fiqh",
+    "category_name": "Фикх и намаз"
+  },
+  {
+    "id": "ru-004",
+    "title": "Проповеди Христа в передаче пророка ислама и Ахле Бейт",
+    "lang": "ru",
+    "lang_name": "Русский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/ru__propovedi-hrista-v-peredache-proroka-islama-i-ahle-beyt.pdf",
+    "size_mb": 1.08,
+    "category": "ahlulbayt",
+    "category_name": "Ахль аль-Байт"
+  },
+  {
+    "id": "ru-005",
+    "title": "Религиозная юриспруденция и разум",
+    "lang": "ru",
+    "lang_name": "Русский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/ru__religioznaya-yurisprudentsiya-i-razum.pdf",
+    "size_mb": 2.07,
+    "category": "fiqh",
+    "category_name": "Фикх и намаз"
+  },
+  {
+    "id": "ru-006",
+    "title": "Репетиторство фарси по русском языку",
+    "lang": "ru",
+    "lang_name": "Русский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/ru__repetitorstvo-farsi-po-russkom-yazyku.pdf",
+    "size_mb": 1.15,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "ru-007",
+    "title": "Самоучитель по чтению священного корана",
+    "lang": "ru",
+    "lang_name": "Русский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/ru__samouchitel-po-chteniyu-svyaschennogo-korana.pdf",
+    "size_mb": 29.46,
+    "category": "quran",
+    "category_name": "Коран и тафсиры"
+  },
+  {
+    "id": "ru-008",
+    "title": "ТАФСИР «АЛЬ-МИЗАН»Том I",
+    "lang": "ru",
+    "lang_name": "Русский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/ru__tafsir-al-mizan-tom-i.pdf",
+    "size_mb": 4.22,
+    "category": "quran",
+    "category_name": "Коран и тафсиры"
+  },
+  {
+    "id": "ru-009",
+    "title": "УРОКИ ПО ВЕРОУБЕЖДЕНИЮ",
+    "lang": "ru",
+    "lang_name": "Русский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/ru__uroki-po-veroubezhdeniyu.pdf",
+    "size_mb": 1.36,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "ru-010",
+    "title": "история образования в исламе",
+    "lang": "ru",
+    "lang_name": "Русский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/ru__istoriya-obrazovaniya-v-islame.pdf",
+    "size_mb": 1.89,
+    "category": "history",
+    "category_name": "История"
+  },
+  {
+    "id": "ru-011",
+    "title": "наша экономика",
+    "lang": "ru",
+    "lang_name": "Русский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/ru__nasha-ekonomika.pdf",
+    "size_mb": 2.69,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "ru-012",
+    "title": "словарь фарси русский",
+    "lang": "ru",
+    "lang_name": "Русский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/ru__slovar-farsi-russkiy.pdf",
+    "size_mb": 1.08,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "ru-013",
+    "title": "фикх образования",
+    "lang": "ru",
+    "lang_name": "Русский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/ru__fikh-obrazovaniya.pdf",
+    "size_mb": 1.95,
+    "category": "fiqh",
+    "category_name": "Фикх и намаз"
+  },
+  {
+    "id": "az-014",
+    "title": "BİZİM DİNİ ƏQİDƏMİZ",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__bizim-dini-eqidemiz.pdf",
+    "size_mb": 1.83,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-015",
+    "title": "Buxari və Müslümün səhihlərinə bir baxış",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__buxari-ve-muslumun-sehihlerine-bir-baxish.pdf",
+    "size_mb": 3.13,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-016",
+    "title": "DINI PLÜRAL ZM",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__dini-plural-zm.pdf",
+    "size_mb": 0.98,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-017",
+    "title": "DİNİN FƏLSƏFƏSİ",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__dinin-felsefesi.pdf",
+    "size_mb": 2.36,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-018",
+    "title": "DÜNYA DİNLƏRİ İLƏ TANIŞLIQ",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__dunya-dinleri-ile-tanishliq.pdf",
+    "size_mb": 2.29,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-019",
+    "title": "Dua va tavassül",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__dua-va-tavassul.pdf",
+    "size_mb": 2.3,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-020",
+    "title": "Elm v hikm t simas quran v h disl rd",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__elm-v-hikm-t-simas-quran-v-h-disl-rd.pdf",
+    "size_mb": 2.13,
+    "category": "quran",
+    "category_name": "Коран и тафсиры"
+  },
+  {
+    "id": "az-021",
+    "title": "Fiqh ali məktəbi 1166",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__fiqh-ali-mektebi-1166.pdf",
+    "size_mb": 1.57,
+    "category": "fiqh",
+    "category_name": "Фикх и намаз"
+  },
+  {
+    "id": "az-022",
+    "title": "Fiqh ali məktəbi",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__fiqh-ali-mektebi.pdf",
+    "size_mb": 3.07,
+    "category": "fiqh",
+    "category_name": "Фикх и намаз"
+  },
+  {
+    "id": "az-023",
+    "title": "H YAT D RS (150 hikm tli h dis)",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__h-yat-d-rs-150-hikm-tli-h-dis.pdf",
+    "size_mb": 1.12,
+    "category": "hadith",
+    "category_name": "Хадисы"
+  },
+  {
+    "id": "az-024",
+    "title": "H zr ti Ali ( ) Baridi 110 H dis",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__h-zr-ti-ali-baridi-110-h-dis.pdf",
+    "size_mb": 1.32,
+    "category": "hadith",
+    "category_name": "Хадисы"
+  },
+  {
+    "id": "az-025",
+    "title": "Hicab necə və nə üçün!",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__hicab-nece-ve-ne-uchun.pdf",
+    "size_mb": 0.96,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-026",
+    "title": "HƏQİQİ İRFAN VƏ YALAN İRFANLAR",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__heqiqi-irfan-ve-yalan-irfanlar.pdf",
+    "size_mb": 2.05,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-027",
+    "title": "IMAMET VA CANISLIK QURANDA",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__imamet-va-canislik-quranda.pdf",
+    "size_mb": 6.31,
+    "category": "quran",
+    "category_name": "Коран и тафсиры"
+  },
+  {
+    "id": "az-028",
+    "title": "İSLAMDA AİLƏ TƏRBİYƏSİ",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__islamda-aile-terbiyesi.pdf",
+    "size_mb": 0.84,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-029",
+    "title": "İmam Hüseyn(ə) və Aşura Qiyami",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__imam-huseyn-e-ve-ashura-qiyami.pdf",
+    "size_mb": 1.14,
+    "category": "ahlulbayt",
+    "category_name": "Ахль аль-Байт"
+  },
+  {
+    "id": "az-030",
+    "title": "İslam məzhəblərilə tanışlıq",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__islam-mezheblerile-tanishliq.pdf",
+    "size_mb": 1.78,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-031",
+    "title": "İslamda insan haqları",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__islamda-insan-haqlari.pdf",
+    "size_mb": 1.54,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-032",
+    "title": "M HD V YY T D ALOQU",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__m-hd-v-yy-t-d-aloqu.pdf",
+    "size_mb": 1.34,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-033",
+    "title": "Müzakirələr",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__muzakireler.pdf",
+    "size_mb": 1.56,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-034",
+    "title": "MƏHDƏVİYYƏT pdf",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__mehdeviyyet-pdf.pdf",
+    "size_mb": 0.35,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-035",
+    "title": "NƏHCÜL-FƏSAHƏ",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__nehcul-fesahe.pdf",
+    "size_mb": 3.85,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-036",
+    "title": "Ömrün meyvəsi",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__omrun-meyvesi.pdf",
+    "size_mb": 1.52,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-037",
+    "title": "QURAN VƏ MÜASİR TƏLƏBLƏR",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__quran-ve-muasir-telebler.pdf",
+    "size_mb": 3.11,
+    "category": "quran",
+    "category_name": "Коран и тафсиры"
+  },
+  {
+    "id": "az-038",
+    "title": "QURANDA “İMAMƏT” AYƏLƏRİ",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__quranda-imamet-ayeleri.pdf",
+    "size_mb": 3.39,
+    "category": "quran",
+    "category_name": "Коран и тафсиры"
+  },
+  {
+    "id": "az-039",
+    "title": "QURANİ-KƏRİMDƏ İBRƏTAMİZ MƏSƏLLƏR",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__qurani-kerimde-ibretamiz-meseller.pdf",
+    "size_mb": 2.15,
+    "category": "quran",
+    "category_name": "Коран и тафсиры"
+  },
+  {
+    "id": "az-040",
+    "title": "Qadınların hikmətnaməsi",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__qadinlarin-hikmetnamesi.pdf",
+    "size_mb": 51.51,
+    "category": "ethics",
+    "category_name": "Этика и ирфан"
+  },
+  {
+    "id": "az-041",
+    "title": "Qurani-Kərim olduğu kimi",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__qurani-kerim-oldugu-kimi.pdf",
+    "size_mb": 1.99,
+    "category": "quran",
+    "category_name": "Коран и тафсиры"
+  },
+  {
+    "id": "az-042",
+    "title": "Şəfaət",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__shefaet.pdf",
+    "size_mb": 1.08,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-043",
+    "title": "TÖVHİD VƏ İLAHİ ƏDALƏT MÖVZUSUNDASUALLAR VƏ CAVABLAR",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__tovhid-ve-ilahi-edalet-movzusundasuallar-ve-cavablar.pdf",
+    "size_mb": 1.98,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-044",
+    "title": "Tale, yaxud qəzavü-qədər",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__tale-yaxud-qezavu-qeder.pdf",
+    "size_mb": 0.78,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-045",
+    "title": "Tövhid və ziyarət",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__tovhid-ve-ziyaret.pdf",
+    "size_mb": 2.08,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-046",
+    "title": "Tədqiqat şöbəsi",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__tedqiqat-shobesi.pdf",
+    "size_mb": 2.47,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-047",
+    "title": "Xəsaisü-Nisai Əmirəl-Möminin...",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__xesaisu-nisai-emirel-mominin.pdf",
+    "size_mb": 1.19,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-048",
+    "title": "Yəhudilik, Xristianlıq və İslam (Müqayisəli araşdırma)",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__yehudilik-xristianliq-ve-islam-muqayiseli-arashdirma.pdf",
+    "size_mb": 1.85,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-049",
+    "title": "axlaq say sind sa lam h yat",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__axlaq-say-sind-sa-lam-h-yat.pdf",
+    "size_mb": 1.58,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-050",
+    "title": "iman ve insansunaliq",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__iman-ve-insansunaliq.pdf",
+    "size_mb": 1.35,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-051",
+    "title": "islam umetinin masumlari",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__islam-umetinin-masumlari.pdf",
+    "size_mb": 1.01,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-052",
+    "title": "islam va xristianliq",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__islam-va-xristianliq.pdf",
+    "size_mb": 1.09,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-053",
+    "title": "masum imamlarin hayati",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__masum-imamlarin-hayati.pdf",
+    "size_mb": 3.53,
+    "category": "ahlulbayt",
+    "category_name": "Ахль аль-Байт"
+  },
+  {
+    "id": "az-054",
+    "title": "peygemernin hayati",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__peygemernin-hayati.pdf",
+    "size_mb": 3.04,
+    "category": "history",
+    "category_name": "История"
+  },
+  {
+    "id": "az-055",
+    "title": "quran ve ahlibeyt bahisinnan",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__quran-ve-ahlibeyt-bahisinnan.pdf",
+    "size_mb": 1.67,
+    "category": "quran",
+    "category_name": "Коран и тафсиры"
+  },
+  {
+    "id": "az-056",
+    "title": "xilaskar",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__xilaskar.pdf",
+    "size_mb": 1.59,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-057",
+    "title": "ƏXLAQ QAYDALARI",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__exlaq-qaydalari.pdf",
+    "size_mb": 1.41,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "az-058",
+    "title": "Əhli-beyt (ə) Quran və hədislərdə",
+    "lang": "az",
+    "lang_name": "Азербайджанский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/az__ehli-beyt-e-quran-ve-hedislerde.pdf",
+    "size_mb": 4.36,
+    "category": "quran",
+    "category_name": "Коран и тафсиры"
+  },
+  {
+    "id": "uz-059",
+    "title": "ҒАДИЙР ВОҚЕАСИ ТАРИХИ ҚУРЪОН ВА СУННАТ НИГОҲИДАН",
+    "lang": "uz",
+    "lang_name": "Узбекский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/uz__adiyr-vo-easi-tarihi-uron-va-sunnat-nigo-idan.pdf",
+    "size_mb": 2.78,
+    "category": "history",
+    "category_name": "История"
+  },
+  {
+    "id": "uz-060",
+    "title": "Қуръонда эътиқод асосларини ўрганамиз (эллик дарс)",
+    "lang": "uz",
+    "lang_name": "Узбекский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/uz__uronda-etiqod-asoslarini-urganamiz-ellik-dars.pdf",
+    "size_mb": 2.48,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "uz-061",
+    "title": "Қуръони Карим маъноларини ўрганиш дарслиги, -2жилд",
+    "lang": "uz",
+    "lang_name": "Узбекский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/uz__uroni-karim-manolarini-urganish-darsligi-2zhild.pdf",
+    "size_mb": 2.09,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "uz-062",
+    "title": "Қуръони Карим маъноларини ўрганиш дарслиги",
+    "lang": "uz",
+    "lang_name": "Узбекский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/uz__uroni-karim-manolarini-urganish-darsligi.pdf",
+    "size_mb": 0.73,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-063",
+    "title": "Нахдж аль-Балага",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__nahdzh-al-balaga.pdf",
+    "size_mb": 9.27,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-064",
+    "title": "Толкование суры «Аль-Фуркан»",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__tolkovanie-sury-al-furkan.pdf",
+    "size_mb": 0.99,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-065",
+    "title": "Дружба в Коране и Сунне",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__druzhba-v-korane-i-sunne.pdf",
+    "size_mb": 2.55,
+    "category": "quran",
+    "category_name": "Коран и тафсиры"
+  },
+  {
+    "id": "tj-066",
+    "title": "Толкование суры «Ан-Нур»",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__tolkovanie-sury-an-nur.pdf",
+    "size_mb": 0.74,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-067",
+    "title": "Захра (с.а.) — лучшая женщина миров",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__zahra-s-a-luchshaya-zhenschina-mirov.pdf",
+    "size_mb": 0.65,
+    "category": "ahlulbayt",
+    "category_name": "Ахль аль-Байт"
+  },
+  {
+    "id": "tj-068",
+    "title": "Избранное из «Тухаф аль-Укуль»",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__izbrannoe-iz-tuhaf-al-ukul.pdf",
+    "size_mb": 0.49,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-069",
+    "title": "Избранное из «Шихаб аль-Ахбар»",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__izbrannoe-iz-shihab-al-ahbar.pdf",
+    "size_mb": 0.62,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-070",
+    "title": "Избранное из «Гурар аль-Хикам»",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__izbrannoe-iz-gurar-al-hikam.pdf",
+    "size_mb": 0.86,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-071",
+    "title": "Жемчужина творения",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__zhemchuzhina-tvoreniya.pdf",
+    "size_mb": 1.07,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-072",
+    "title": "История ислама",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__istoriya-islama.pdf",
+    "size_mb": 1.76,
+    "category": "history",
+    "category_name": "История"
+  },
+  {
+    "id": "tj-073",
+    "title": "Избранное из «Мизан аль-Хикма» — Том 1",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__izbrannoe-iz-mizan-al-hikma-tom-1.pdf",
+    "size_mb": 2.37,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-074",
+    "title": "Избранное из «Мизан аль-Хикма» — Том 2",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__izbrannoe-iz-mizan-al-hikma-tom-2.pdf",
+    "size_mb": 2.35,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-075",
+    "title": "Избранное из «Мизан аль-Хикма» — Том 3",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__izbrannoe-iz-mizan-al-hikma-tom-3.pdf",
+    "size_mb": 2.39,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-076",
+    "title": "Избранное из «Мизан аль-Хикма» — Том 4",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__izbrannoe-iz-mizan-al-hikma-tom-4.pdf",
+    "size_mb": 2.45,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-077",
+    "title": "Рассказ о Кербеле",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__rasskaz-o-kerbele.pdf",
+    "size_mb": 2.07,
+    "category": "ahlulbayt",
+    "category_name": "Ахль аль-Байт"
+  },
+  {
+    "id": "tj-078",
+    "title": "Притчи",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__pritchi.pdf",
+    "size_mb": 0.66,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-079",
+    "title": "Толкование сур «Ясин, Ар-Рахман, Аль-Мульк»",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__tolkovanie-sur-yasin-ar-rahman-al-mulk.pdf",
+    "size_mb": 1.62,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-080",
+    "title": "Имам Али (а) и его последователи",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__imam-ali-a-i-ego-posledovateli.pdf",
+    "size_mb": 0.93,
+    "category": "ahlulbayt",
+    "category_name": "Ахль аль-Байт"
+  },
+  {
+    "id": "tj-081",
+    "title": "Исламские предписания",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__islamskie-predpisaniya.pdf",
+    "size_mb": 1.25,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-082",
+    "title": "Знакомство с лидерами салафитов и ваххабитов",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__znakomstvo-s-liderami-salafitov-i-vahhabitov.pdf",
+    "size_mb": 2.36,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-083",
+    "title": "Толкование суры «Аль-Худжурат»",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__tolkovanie-sury-al-hudzhurat.pdf",
+    "size_mb": 0.6,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-084",
+    "title": "Толкование суры «Лукман»",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__tolkovanie-sury-lukman.pdf",
+    "size_mb": 0.68,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-085",
+    "title": "Толкование суры «Ясин»",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__tolkovanie-sury-yasin.pdf",
+    "size_mb": 0.67,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-086",
+    "title": "Отец, мать, учитель — воспитайте меня хорошо",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__otets-mat-uchitel-vospitayte-menya-horosho.pdf",
+    "size_mb": 0.94,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-087",
+    "title": "Беседы об исламе",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__besedy-ob-islame.pdf",
+    "size_mb": 1.06,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-088",
+    "title": "Толкование суры «Мухаммад»",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__tolkovanie-sury-muhammad.pdf",
+    "size_mb": 1.72,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-089",
+    "title": "История величайшего Пророка (с)",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__istoriya-velichayshego-proroka-s.pdf",
+    "size_mb": 3.43,
+    "category": "history",
+    "category_name": "История"
+  },
+  {
+    "id": "tj-090",
+    "title": "Положение отца и матери",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__polozhenie-ottsa-i-materi.pdf",
+    "size_mb": 0.69,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-091",
+    "title": "Положение Священного Корана",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__polozhenie-svyaschennogo-korana.pdf",
+    "size_mb": 1.29,
+    "category": "quran",
+    "category_name": "Коран и тафсиры"
+  },
+  {
+    "id": "tj-092",
+    "title": "Запрет вина",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__zapret-vina.pdf",
+    "size_mb": 1.15,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-093",
+    "title": "Достоинство милостыни",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__dostoinstvo-milostyni.pdf",
+    "size_mb": 0.83,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-094",
+    "title": "Сорок хадисов Пророка (Арбаин)",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__sorok-hadisov-proroka-arbain.pdf",
+    "size_mb": 1.37,
+    "category": "hadith",
+    "category_name": "Хадисы"
+  },
+  {
+    "id": "tj-095",
+    "title": "Положение намаза",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__polozhenie-namaza.pdf",
+    "size_mb": 0.63,
+    "category": "fiqh",
+    "category_name": "Фикх и намаз"
+  },
+  {
+    "id": "tj-096",
+    "title": "Мудрые изречения для молодёжи",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__mudrye-izrecheniya-dlya-molodezhi.pdf",
+    "size_mb": 1.76,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-097",
+    "title": "Мудрые изречения для детей",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__mudrye-izrecheniya-dlya-detey.pdf",
+    "size_mb": 1.22,
+    "category": "children",
+    "category_name": "Детям"
+  },
+  {
+    "id": "tj-098",
+    "title": "Толкование суры «Аль-Анкабут»",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__tolkovanie-sury-al-ankabut.pdf",
+    "size_mb": 0.69,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-099",
+    "title": "Взгляд на христианство и ответы на сомнения",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__vzglyad-na-hristianstvo-i-otvety-na-somneniya.pdf",
+    "size_mb": 1.47,
+    "category": "comparative",
+    "category_name": "Сравнительное религиоведение"
+  },
+  {
+    "id": "tj-100",
+    "title": "Битва истины и лжи",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__bitva-istiny-i-lzhi.pdf",
+    "size_mb": 1.58,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-101",
+    "title": "Экономическая система в исламе",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__ekonomicheskaya-sistema-v-islame.pdf",
+    "size_mb": 1.99,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-102",
+    "title": "Ответственность родителей перед детьми",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__otvetstvennost-roditeley-pered-detmi.pdf",
+    "size_mb": 0.9,
+    "category": "children",
+    "category_name": "Детям"
+  },
+  {
+    "id": "tj-103",
+    "title": "Священный Коран (перевод)",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__svyaschennyy-koran-perevod.pdf",
+    "size_mb": 36.58,
+    "category": "quran",
+    "category_name": "Коран и тафсиры"
+  },
+  {
+    "id": "tj-104",
+    "title": "Цели восстания Имама Хусейна (а)",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__tseli-vosstaniya-imama-huseyna-a.pdf",
+    "size_mb": 1.32,
+    "category": "ahlulbayt",
+    "category_name": "Ахль аль-Байт"
+  },
+  {
+    "id": "tj-105",
+    "title": "Совершенный человек",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__sovershennyy-chelovek.pdf",
+    "size_mb": 3.23,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-106",
+    "title": "Критика книги «Мировоззрение будущего»",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__kritika-knigi-mirovozzrenie-buduschego.pdf",
+    "size_mb": 1.11,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-107",
+    "title": "Управление государством: взгляд имама Али (а)",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__upravlenie-gosudarstvom-vzglyad-imama-ali-a.pdf",
+    "size_mb": 1.29,
+    "category": "ahlulbayt",
+    "category_name": "Ахль аль-Байт"
+  },
+  {
+    "id": "tj-108",
+    "title": "Хорошие рассказы для хороших детей — Том 1",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__horoshie-rasskazy-dlya-horoshih-detey-tom-1.pdf",
+    "size_mb": 1.2,
+    "category": "children",
+    "category_name": "Детям"
+  },
+  {
+    "id": "tj-109",
+    "title": "Хорошие рассказы для хороших детей — Том 2",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__horoshie-rasskazy-dlya-horoshih-detey-tom-2.pdf",
+    "size_mb": 1.29,
+    "category": "children",
+    "category_name": "Детям"
+  },
+  {
+    "id": "tj-110",
+    "title": "Хорошие рассказы для хороших детей — Том 5",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__horoshie-rasskazy-dlya-horoshih-detey-tom-5.pdf",
+    "size_mb": 1.33,
+    "category": "children",
+    "category_name": "Детям"
+  },
+  {
+    "id": "tj-111",
+    "title": "Хорошие рассказы для хороших детей — Том 6",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__horoshie-rasskazy-dlya-horoshih-detey-tom-6.pdf",
+    "size_mb": 1.62,
+    "category": "children",
+    "category_name": "Детям"
+  },
+  {
+    "id": "tj-112",
+    "title": "NBA01.j6",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__nba01-j6.pdf",
+    "size_mb": 1.32,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-113",
+    "title": "Толкование «Мубин» — Том 1",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__tolkovanie-mubin-tom-1.pdf",
+    "size_mb": 20.92,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-114",
+    "title": "Толкование «Мубин» — Том 2",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__tolkovanie-mubin-tom-2.pdf",
+    "size_mb": 17.45,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-115",
+    "title": "Востоковедение и исламоведение западных учёных",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__vostokovedenie-i-islamovedenie-zapadnyh-uchenyh.pdf",
+    "size_mb": 4.69,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-116",
+    "title": "Ахль аль-Байт (а) и ответ салафитам",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__ahl-al-bayt-a-i-otvet-salafitam.pdf",
+    "size_mb": 3.39,
+    "category": "ahlulbayt",
+    "category_name": "Ахль аль-Байт"
+  },
+  {
+    "id": "tj-117",
+    "title": "Итоги сомнений о бытии в антропологии",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__itogi-somneniy-o-bytii-v-antropologii.pdf",
+    "size_mb": 1.44,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-118",
+    "title": "Качества божественного учёного в Коране и хадисах",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__kachestva-bozhestvennogo-uchenogo-v-korane-i-hadisah.pdf",
+    "size_mb": 1.05,
+    "category": "quran",
+    "category_name": "Коран и тафсиры"
+  },
+  {
+    "id": "tj-119",
+    "title": "Этическое воспитание",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__eticheskoe-vospitanie.pdf",
+    "size_mb": 1.03,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-120",
+    "title": "Заветы Пророка (с) дочерям и женщинам",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__zavety-proroka-s-docheryam-i-zhenschinam.pdf",
+    "size_mb": 0.56,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-121",
+    "title": "Ахль аль-Байт (а) в Коране и хадисах",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__ahl-al-bayt-a-v-korane-i-hadisah.pdf",
+    "size_mb": 4.49,
+    "category": "quran",
+    "category_name": "Коран и тафсиры"
+  },
+  {
+    "id": "tj-122",
+    "title": "Сунан ан-Наби — обычаи Пророка (с)",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__sunan-an-nabi-obychai-proroka-s.pdf",
+    "size_mb": 1.79,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-123",
+    "title": "Вопрос хиджаба",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__vopros-hidzhaba.pdf",
+    "size_mb": 1.55,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-124",
+    "title": "Мир и вечная жизнь: взгляд Корана и хадисов",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__mir-i-vechnaya-zhizn-vzglyad-korana-i-hadisov.pdf",
+    "size_mb": 2.24,
+    "category": "quran",
+    "category_name": "Коран и тафсиры"
+  },
+  {
+    "id": "tj-125",
+    "title": "Луч исследования — Том 1",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__luch-issledovaniya-tom-1.pdf",
+    "size_mb": 1.4,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-126",
+    "title": "Мудрые изречения величайшего Пророка (с) — Том 1",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__mudrye-izrecheniya-velichayshego-proroka-s-tom-1.pdf",
+    "size_mb": 2.71,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-127",
+    "title": "Мудрые изречения величайшего Пророка (с) — Том 2",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__mudrye-izrecheniya-velichayshego-proroka-s-tom-2.pdf",
+    "size_mb": 3.31,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-128",
+    "title": "Мудрые изречения Лукмана (а)",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__mudrye-izrecheniya-lukmana-a.pdf",
+    "size_mb": 1.85,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-129",
+    "title": "Укрепление семьи: взгляд Корана и хадисов",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__ukreplenie-semi-vzglyad-korana-i-hadisov.pdf",
+    "size_mb": 5.93,
+    "category": "quran",
+    "category_name": "Коран и тафсиры"
+  },
+  {
+    "id": "tj-130",
+    "title": "Толкование сорока хадисов о богопознании",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__tolkovanie-soroka-hadisov-o-bogopoznanii.pdf",
+    "size_mb": 0.82,
+    "category": "hadith",
+    "category_name": "Хадисы"
+  },
+  {
+    "id": "tj-131",
+    "title": "Положение женщины в преданиях",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__polozhenie-zhenschiny-v-predaniyah.pdf",
+    "size_mb": 0.42,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-132",
+    "title": "Положение и статус брака",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__polozhenie-i-status-braka.pdf",
+    "size_mb": 0.4,
+    "category": "general",
+    "category_name": "Общее"
+  },
+  {
+    "id": "tj-133",
+    "title": "Ахль аль-Байт (а) с точки зрения имама Абу Ханифы",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__ahl-al-bayt-a-s-tochki-zreniya-imama-abu-hanify.pdf",
+    "size_mb": 2.4,
+    "category": "ahlulbayt",
+    "category_name": "Ахль аль-Байт"
+  },
+  {
+    "id": "tj-134",
+    "title": "Хиджаб и ответы на сомнения о нём",
+    "lang": "tj",
+    "lang_name": "Таджикский",
+    "file": "https://github.com/kaibovamin4-sys/ahlul-al-bayt/releases/download/books-v1/tj__hidzhab-i-otvety-na-somneniya-o-nem.pdf",
+    "size_mb": 12.97,
+    "category": "general",
+    "category_name": "Общее"
+  }
+]
