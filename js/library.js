@@ -4,6 +4,8 @@
   let activeLang = 'all';
   let activeCat = 'all';
   let searchQuery = '';
+  let visibleCount = 16;
+  const PAGE_SIZE = 16;
 
   const LANG_LABELS = { all: 'Все языки', ru: 'Русский', az: 'Азербайджанский', uz: 'Узбекский', tj: 'Таджикский' };
   const ORNAMENTS = ['۞', '❋', '✦', '◈', '❖'];
@@ -55,9 +57,10 @@
     wrap.querySelectorAll('.lib-lang-tab').forEach(btn => {
       btn.addEventListener('click', () => {
         activeLang = btn.dataset.lang;
+        visibleCount = PAGE_SIZE;
         wrap.querySelectorAll('.lib-lang-tab').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
-        render();
+        render(true);
       });
     });
   }
@@ -71,7 +74,8 @@
     sel.innerHTML = cats.map(c => `<option value="${c}">${catNames[c]}</option>`).join('');
     sel.addEventListener('change', () => {
       activeCat = sel.value;
-      render();
+      visibleCount = PAGE_SIZE;
+      render(true);
     });
   }
 
@@ -79,32 +83,40 @@
   if (searchInput) {
     searchInput.addEventListener('input', () => {
       searchQuery = searchInput.value.trim().toLowerCase();
-      render();
+      visibleCount = PAGE_SIZE;
+      render(true);
     });
   }
 
-  function render() {
-    const grid = document.getElementById('libGrid');
-    const countEl = document.getElementById('libCount');
-    if (!grid) return;
-
-    let filtered = BOOKS.filter(b => {
+  function getFiltered() {
+    return BOOKS.filter(b => {
       if (activeLang !== 'all' && b.lang !== activeLang) return false;
       if (activeCat !== 'all' && b.category !== activeCat) return false;
       if (searchQuery && !b.title.toLowerCase().includes(searchQuery)) return false;
       return true;
     });
+  }
+
+  function render(scrollToTop) {
+    const grid = document.getElementById('libGrid');
+    const countEl = document.getElementById('libCount');
+    if (!grid) return;
+
+    const filtered = getFiltered();
 
     if (!filtered.length) {
       grid.innerHTML = `<div class="lib-empty"><div class="lib-empty-icon">📚</div><div class="lib-empty-text">Ничего не найдено</div></div>`;
-      countEl.textContent = '';
+      countEl.innerHTML = '';
+      if (scrollToTop) document.getElementById('library').scrollIntoView({ behavior: 'smooth', block: 'start' });
       return;
     }
 
-    grid.innerHTML = filtered.map((b, i) => {
+    const toShow = filtered.slice(0, visibleCount);
+
+    grid.innerHTML = toShow.map((b, i) => {
       const ornament = ORNAMENTS[i % ORNAMENTS.length];
       return `
-      <div class="lib-book" style="animation-delay:${Math.min(i * 0.02, 0.6)}s" onclick='openBookReader(${JSON.stringify(b).replace(/'/g, "&apos;")})'>
+      <div class="lib-book" style="animation-delay:${Math.min(i * 0.02, 0.4)}s" onclick='openBookReader(${JSON.stringify(b).replace(/'/g, "&apos;")})'>
         <div class="lib-cover">
           <div class="lib-cover-lang-badge">${LANG_LABELS[b.lang]}</div>
           <div class="lib-cover-ornament">${ornament}</div>
@@ -117,7 +129,24 @@
       </div>`;
     }).join('');
 
-    countEl.textContent = `Показано ${filtered.length} из ${BOOKS.length} книг`;
+    const remaining = filtered.length - toShow.length;
+    let countHtml = `<span>Показано ${toShow.length} из ${filtered.length}</span>`;
+    if (remaining > 0) {
+      countHtml += `<button class="lib-more-btn" id="libMoreBtn">Показать ещё ${Math.min(remaining, PAGE_SIZE)} →</button>`;
+    }
+    countEl.innerHTML = countHtml;
+
+    const moreBtn = document.getElementById('libMoreBtn');
+    if (moreBtn) {
+      moreBtn.addEventListener('click', () => {
+        visibleCount += PAGE_SIZE;
+        render(false);
+      });
+    }
+
+    if (scrollToTop) {
+      document.getElementById('library').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   }
 
   // ── BOOK READER ──
@@ -144,7 +173,6 @@
       loading.style.display = 'none';
       frame.style.display = 'block';
     };
-    // Fallback: show iframe after timeout even if onload doesn't fire (cross-origin PDFs)
     setTimeout(() => {
       loading.style.display = 'none';
       frame.style.display = 'block';

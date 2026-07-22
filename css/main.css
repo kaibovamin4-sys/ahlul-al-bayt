@@ -1761,6 +1761,10 @@
   }
 
   .lib-count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
     text-align: center;
     font-size: 10px;
     letter-spacing: 0.2em;
@@ -1768,6 +1772,26 @@
     color: var(--text-muted);
     margin-top: 8px;
   }
+
+  .lib-more-btn {
+    background: none;
+    border: 1px solid var(--border-gold);
+    color: var(--gold);
+    padding: 12px 32px;
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .lib-more-btn:hover {
+    background: var(--gold);
+    color: #0a0c0b;
+  }
+
+  [data-theme="light"] .lib-more-btn:hover { color: var(--white); }
 
   /* ── BOOK READER MODAL ── */
   .lib-reader-overlay {
